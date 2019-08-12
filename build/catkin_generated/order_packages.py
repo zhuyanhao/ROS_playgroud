@@ -2,4 +2,4 @@
 source_root_dir = "/home/yanhao/Desktop/ROS/ROS_playgroud/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/opt/ros/melodic".split(';') if "/opt/ros/melodic" != "" else []
+underlay_workspaces = "/home/yanhao/Desktop/ROS/ROS_playgroud/devel;/opt/ros/melodic".split(';') if "/home/yanhao/Desktop/ROS/ROS_playgroud/devel;/opt/ros/melodic" != "" else []

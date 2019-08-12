@@ -1,0 +1,8 @@
+prefix=/home/yanhao/Desktop/ROS/ROS_playgroud/devel
+
+Name: hello_world_cpp
+Description: Description of hello_world_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yanhao/Desktop/ROS/ROS_playgroud/devel/lib 
+Requires: 
