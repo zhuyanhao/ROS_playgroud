@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/yanhao/Desktop/ROS/ROS_playgroud/devel -DCMAKE_INSTALL_PREFIX=/home/yanhao/Desktop/ROS/ROS_playgroud/install -G Unix Makefiles
