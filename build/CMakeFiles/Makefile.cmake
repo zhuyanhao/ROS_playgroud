@@ -15,9 +15,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "hello_world_cpp/catkin_generated/ordered_paths.cmake"
   "hello_world_cpp/catkin_generated/package.cmake"
+  "publish_subscribe_cpp/catkin_generated/ordered_paths.cmake"
+  "publish_subscribe_cpp/catkin_generated/package.cmake"
   "/home/yanhao/Desktop/ROS/ROS_playgroud/src/CMakeLists.txt"
   "/home/yanhao/Desktop/ROS/ROS_playgroud/src/hello_world_cpp/CMakeLists.txt"
   "/home/yanhao/Desktop/ROS/ROS_playgroud/src/hello_world_cpp/package.xml"
+  "/home/yanhao/Desktop/ROS/ROS_playgroud/src/publish_subscribe_cpp/CMakeLists.txt"
+  "/home/yanhao/Desktop/ROS/ROS_playgroud/src/publish_subscribe_cpp/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
   "/opt/ros/melodic/share/catkin/cmake/all.cmake"
   "/opt/ros/melodic/share/catkin/cmake/assert.cmake"
@@ -173,6 +177,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hello_world_cpp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "publish_subscribe_cpp/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -202,4 +207,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "hello_world_cpp/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
   "hello_world_cpp/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake"
   "hello_world_cpp/CMakeFiles/main.dir/DependInfo.cmake"
+  "publish_subscribe_cpp/CMakeFiles/my_sub.dir/DependInfo.cmake"
+  "publish_subscribe_cpp/CMakeFiles/my_pub.dir/DependInfo.cmake"
   )

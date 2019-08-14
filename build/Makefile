@@ -492,6 +492,32 @@ main/fast:
 	$(MAKE) -f hello_world_cpp/CMakeFiles/main.dir/build.make hello_world_cpp/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named my_sub
+
+# Build rule for target.
+my_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_sub
+.PHONY : my_sub
+
+# fast build rule for target.
+my_sub/fast:
+	$(MAKE) -f publish_subscribe_cpp/CMakeFiles/my_sub.dir/build.make publish_subscribe_cpp/CMakeFiles/my_sub.dir/build
+.PHONY : my_sub/fast
+
+#=============================================================================
+# Target rules for targets named my_pub
+
+# Build rule for target.
+my_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_pub
+.PHONY : my_pub
+
+# fast build rule for target.
+my_pub/fast:
+	$(MAKE) -f publish_subscribe_cpp/CMakeFiles/my_pub.dir/build.make publish_subscribe_cpp/CMakeFiles/my_pub.dir/build
+.PHONY : my_pub/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -530,6 +556,8 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... main"
+	@echo "... my_sub"
+	@echo "... my_pub"
 .PHONY : help
 
 

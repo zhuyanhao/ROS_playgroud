@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("hello_world_cpp")
+subdirs("publish_subscribe_cpp")

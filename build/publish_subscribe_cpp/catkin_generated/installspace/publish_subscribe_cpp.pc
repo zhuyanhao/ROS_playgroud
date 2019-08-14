@@ -1,0 +1,8 @@
+prefix=/home/yanhao/Desktop/ROS/ROS_playgroud/install
+
+Name: publish_subscribe_cpp
+Description: Description of publish_subscribe_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yanhao/Desktop/ROS/ROS_playgroud/install/lib 
+Requires: 
